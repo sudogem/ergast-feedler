@@ -1,0 +1,17 @@
+	<h1>Drivers Championship Standings</h1>
+		<div ng-hide="driversList.dataLoaded" class="preloader">
+				<!-- image here via CSS -->
+		</div>
+
+  <table>
+    <tbody>
+      <tr ng-repeat="driver in driversList">
+        <td>{{$index + 1}}</td>
+        <td>
+          <a href="#/drivers/{{::driver.Driver.driverId}}" >{{::driver.Driver.givenName}}&nbsp;{{::driver.Driver.familyName}}</a>
+        </td>
+        <td>{{::driver.Constructors[0].name}}</td>
+        <td>{{::driver.points}}</td>
+      </tr>
+    </tbody>
+  </table>

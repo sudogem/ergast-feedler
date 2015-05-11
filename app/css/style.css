@@ -1,0 +1,11 @@
+h1 { font-size: 20px}
+.container {
+  border:1px solid #ccc;
+  margin:0 auto;
+  width:400px;
+  padding:20px;
+}
+.preloader {
+    padding: 50px;
+    background: url('../img/preloader.gif') no-repeat 50% 50% transparent;
+}

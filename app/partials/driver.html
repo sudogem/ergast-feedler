@@ -1,0 +1,42 @@
+<div ng-hide="driversList.dataLoaded" class="preloader">
+		<!-- image here via CSS -->
+</div>
+
+<a href="./#/drivers"><- Back to drivers list</a>
+<table border=1 width="100%">
+	<tr>
+		<td width="30%">Name:</td>
+		<td>{{driver.Driver.givenName}} {{driver.Driver.familyName}}</td>	
+	</tr>	
+	<tr>
+		<td>Permanent Number:</td>
+		<td>{{driver.Driver.permanentNumber}}</td>	
+	</tr>	
+	<tr>
+		<td>Nationality:</td>
+		<td>{{driver.Driver.nationality}}</td>	
+	</tr>	
+	<tr>
+		<td>Date of birth:</td>
+		<td>{{driver.Driver.dateOfBirth}}</td>	
+	</tr>
+	<tr>
+		<td>Url:</td>
+		<td>{{driver.Driver.url}}</td>	
+	</tr>
+
+</table>
+
+<table width="100%">
+	<tr>
+		<td>Round</td><td>Grand Prix</td> <td>Team</td> <td>Grid</td> <td>Race</td>
+	</tr>
+
+  <tr ng-repeat="race in races">
+		<td>{{race.round}}</td>
+		<td>{{race.raceName}}</td>
+		<td>{{race.Results[0].Constructor.name}}</td>
+		<td>{{race.Results[0].grid}}</td>
+		<td>{{race.Results[0].position}}</td>
+	</tr>
+</table>
