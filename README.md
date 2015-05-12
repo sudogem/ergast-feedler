@@ -4,5 +4,5 @@ The Ergast Developer API is an experimental web service which provides a histori
 Ergast API: http://ergast.com/mrd/
 
 How to install:
-$ npm install
-$ npm start
+$ npm install <br>
+$ npm start <br>
