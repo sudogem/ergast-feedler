@@ -1,4 +1,6 @@
 # ergast-feedler
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sudogem/ergast-feedler/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 The Ergast Developer API is an experimental web service which provides a historical record of motor racing data for non-commercial purposes.
 
 Ergast API: http://ergast.com/mrd/
