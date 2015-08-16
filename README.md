@@ -5,6 +5,11 @@ The Ergast Developer API is an experimental web service which provides a histori
 
 Ergast API: http://ergast.com/mrd/
 
-How to install:<br>
-$ npm install <br>
-$ npm start <br>
+#### How to install:   
+$ git clone --depth=1 https://github.com/sudogem/ergast-feedler.git       
+$ cd ergast-feedler   
+$ npm install   
+$ npm start   
+  
+#### Developer
+rails-blog &copy; 2015 Arman Ortega. Released under the MIT License.     
