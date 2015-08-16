@@ -10,6 +10,12 @@ $ git clone --depth=1 https://github.com/sudogem/ergast-feedler.git
 $ cd ergast-feedler   
 $ npm install   
 $ npm start   
+
+#### Technology stacks:   
+* node.js   
+* HTML/CSS   
+* AngularJS   
+* Protractor   
   
 #### Developer
 ergast-feedler &copy; 2015 Arman Ortega. Released under the MIT License.     
