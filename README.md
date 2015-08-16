@@ -12,4 +12,4 @@ $ npm install
 $ npm start   
   
 #### Developer
-rails-blog &copy; 2015 Arman Ortega. Released under the MIT License.     
+ergast-feedler &copy; 2015 Arman Ortega. Released under the MIT License.     
